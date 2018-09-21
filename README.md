@@ -5,6 +5,12 @@ Using Mac OS X Automator, we can bind the generation to a key combination that c
 
 ---
 
+### Command Line Args
+`-timestamp` generates an address like `example+1537533901@domain.com`
+`-word` generates an address likes `example+silver@domain.com`
+
+---
+
 ### Step 1
 
 The first thing to do is to create a new service like the one below. Export your email address as an env var then start the ruby script.
